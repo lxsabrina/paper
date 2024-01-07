@@ -64,7 +64,6 @@ Robustness
 模型方差(Variance):  模型在不同数据集上预测结果的波动性和不稳定性。方差是一种度量模型访华能力的指标，反应了模型对于训练数据变化敏感程度。比如准确率的方差。方差大说明模型出现过拟合，通过缓解模型过拟合的方法来做。
 
 
-
 # 2 中文材料和开源项目
 [转化延迟 Delayed Feedback in Streaming Learning](https://zhuanlan.zhihu.com/p/657043621) By lxsabrina 
 
