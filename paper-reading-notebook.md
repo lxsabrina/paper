@@ -48,3 +48,15 @@ https://zh.wikipedia.org/zh-hans/%E6%B3%8A%E6%9D%BE%E5%9B%9E%E5%BD%92
 
     ![Alt text](image.png)
 
+
+# 模型训练方式
+
+模型训练的不同的数据处理方式以及模更新方式，分为batch learning和online learning：
+
+batch learning： 一种逐步接收和处理数据的学习方法。在在线学习中，模型会逐个或一批一批地接收样本，并根据每个样本的预测结果进行即时的模型更新。在线学习的特点是能够处理大规模数据集或实时数据流，并且可以灵活地适应数据的变化和新样本的到来
+
+online learning: 批量学习是指在处理数据时将所有样本一次性输入模型进行训练和更新。在批量学习中，数据被分为固定大小的批次，模型在每个批次上进行推理和计算损失函数，并通过计算整个批次上的梯度来更新模型参数
+
+continue training/increatement learning: 不同任务或者数据，系统能够不断积累知识和适应新任务的学习能力。
+
+不管batch learning还是online learning，都存在样本分布问题. 我们认为，观察窗口越小，样本分布偏差越大，delay feedback问题越严重，所以就delay feedback问题而言，能够解决的是 训练样本偏差和真实的训练样本偏差问题。

@@ -30,11 +30,16 @@ Robustness
 ## 4. DataSets and Benchmarking（公开数据集）
 
 ## 5. 中文材料
+
+[WWW 2022 | 搜索广告CVR延迟反馈建模DEFUSE](https://zhuanlan.zhihu.com/p/506476146)书浅、澍元、石士
+
 [转化延迟 Delayed Feedback in Streaming Learning](https://zhuanlan.zhihu.com/p/657043621) By lxsabrina 
 
 [一文搞懂CTR建模](https://zhuanlan.zhihu.com/p/582534683) By Coreyzhong
 
 [一文让你更懂 CTR 建模](https://zhuanlan.zhihu.com/p/582534683) By coreyzhong
+
+
 
 ## 6. 开源项目
 
